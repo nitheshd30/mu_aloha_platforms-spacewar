@@ -2,9 +2,9 @@ name: Build Nothing Phone (1) UEFI
 
 on:
   push:
-    branches:
-      - main
-      - nothing-spacewar-dev
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
   workflow_dispatch:
 
 env:
@@ -16,6 +16,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          submodules: true
 
       - name: Build UEFI for nothing-spacewar
         run: |
