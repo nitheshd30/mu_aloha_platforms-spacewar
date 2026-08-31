@@ -1,5 +1,5 @@
 [PcdsFixedAtBuild.common]
-#gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xE1000000
+gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0xE1000000
 gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
 gAndromedaPkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
 
